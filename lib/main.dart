@@ -6,6 +6,7 @@ import './verify user/verify user.dart'as verifyuser;
 import './Discription/DescriptionWithImage.dart'as Discription;
 import './requestiformation/RequstInformation.dart'as requestiformation;
 import './welcom_page/DesignWelcomePage.dart'as welcome;
+import './total/totalrecipt.dart'as Total;
 main(){
   runApp(MaterialApp(
     title: "pet",
@@ -17,6 +18,7 @@ main(){
         '/verifyuser': (context) => verifyuser.verifyUser(),
         '/Discription': (context) => Discription.DescriptionWithImage(),
         '/requestiformation': (context) => requestiformation.reqInformation(),
+        '/Total': (context) => Total.totalrecipt(),
       }
   ));
 }
